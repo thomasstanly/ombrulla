@@ -1,0 +1,35 @@
+.bgImage {
+    background-image: url('../../Assets/images/position-statement.svg');
+    border-radius: 20px;
+    margin: 8rem 5rem 8rem 5rem;
+    height: 600px;
+}
+
+@media (max-width: 768px) {
+    .bgImage {
+        margin: 6rem 1rem 2rem 1rem;
+        height: auto;
+    }
+}
+
+.ai_foods {
+    margin-top: 20px;
+    height: 30rem;
+}
+
+.bgImage2 {
+    background-image: url('../../Assets/images/Mask-group-1.jpg');
+    margin-top: 6rem;
+    height: 623px;
+}
+
+.node {
+    margin-top: 20px;
+    height: 23rem;
+}
+@media (max-width: 768px) {
+    .node {
+      
+        height: auto;
+    }
+}

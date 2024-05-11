@@ -1,0 +1,14 @@
+.running{
+    position: relative;
+}
+.sideone{
+    position: absolute;
+    z-index: 1;
+    background-image: linear-gradient(to right,rgb(255, 255, 255),rgba(255, 255, 255, 0));
+}
+.sidetwo{
+    position: absolute;
+    right: 0px;
+    top: 0px;
+    background-image: linear-gradient(to left,rgb(255, 255, 255),rgba(255, 255, 255, 0));
+}
