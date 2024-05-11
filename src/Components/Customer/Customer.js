@@ -39,8 +39,7 @@ const Customer = () => {
             <Slider {...settings}>
                {data.map((d, index) => (
                   <div>
-                     <img className='w-20' key={index} src={d.image} alt={`Image ${index + 1}`}
-                     />
+                     <img className='w-20' key={index} src={d.image} alt=''/>
                   </div>
                ))
                }
